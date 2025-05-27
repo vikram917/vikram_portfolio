@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Configure Tailwind CSS v4 */
+@theme {
+  --color-background: light-dark(#ffffff, #0f0f23);
+  --color-foreground: light-dark(#0f0f23, #ffffff);
+  --color-card: light-dark(#ffffff, #0f0f23);
+  --color-card-foreground: light-dark(#0f0f23, #ffffff);
+  --color-popover: light-dark(#ffffff, #0f0f23);
+  --color-popover-foreground: light-dark(#0f0f23, #ffffff);
+  --color-primary: light-dark(#0f0f23, #ffffff);
+  --color-primary-foreground: light-dark(#ffffff, #0f0f23);
+  --color-secondary: light-dark(#f1f5f9, #1e293b);
+  --color-secondary-foreground: light-dark(#0f0f23, #ffffff);
+  --color-muted: light-dark(#f1f5f9, #1e293b);
+  --color-muted-foreground: light-dark(#64748b, #94a3b8);
+  --color-accent: light-dark(#f1f5f9, #1e293b);
+  --color-accent-foreground: light-dark(#0f0f23, #ffffff);
+  --color-destructive: light-dark(#ef4444, #dc2626);
+  --color-destructive-foreground: light-dark(#ffffff, #ffffff);
+  --color-border: light-dark(#e2e8f0, #334155);
+  --color-input: light-dark(#e2e8f0, #334155);
+  --color-ring: light-dark(#0f0f23, #ffffff);
+  
+  --radius: 0.5rem;
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Custom utilities */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
+
+/* Focus styles */
+.focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-ring);
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
