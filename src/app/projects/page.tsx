@@ -2,10 +2,10 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { getAllProjects } from '@/lib/data/projects'
-import { Card } from '@/components/ui/card'
-import { Container } from '@/components/ui/container'
-import { Heading } from '@/components/ui/heading'
-import { Button } from '@/components/ui/button'
+import { Card } from '@/components/ui/Card'
+import { Container } from '@/components/ui/Container'
+import { Heading } from '@/components/ui/Heading'
+import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
   title: 'Projects',

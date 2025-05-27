@@ -1,5 +1,5 @@
 // app/loading.tsx
-import { Container } from '@/components/ui/container';
+import { Container } from '@/components/ui/Container';
 
 export default function Loading() {
   return (

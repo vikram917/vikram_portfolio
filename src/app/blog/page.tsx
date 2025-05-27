@@ -1,9 +1,9 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { getAllPosts }  from '@/lib/data/blog-posts'
-import { Card } from '@/components/ui/card'
-import { Container } from '@/components/ui/container'
-import { Heading } from '@/components/ui/heading'
+import { Card } from '@/components/ui/Card'
+import { Container } from '@/components/ui/Container'
+import { Heading } from '@/components/ui/Heading'
 
 export const metadata: Metadata = {
   title: 'Blog',

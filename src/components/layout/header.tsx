@@ -1,11 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import { Container } from '@/components/ui/container';
+import { Container } from '@/components/ui/Container';
 import { Navigation } from '@/components/layout/navigation';
 import { MobileNav } from '@/components/layout/mobile-nav';
 import  ThemeSwitcher  from '@/components/theme/theme-switcher';
 import { siteConfig } from '@/config/site';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
 
 interface HeaderProps {

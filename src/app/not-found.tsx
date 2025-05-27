@@ -1,8 +1,8 @@
 // app/not-found.tsx
 import Link from 'next/link';
-import { Container } from '@/components/ui/container';
-import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
+import { Container } from '@/components/ui/Container';
+import { Button } from '@/components/ui/Button';
+import { Heading } from '@/components/ui/Heading';
 
 export default function NotFound() {
   return (

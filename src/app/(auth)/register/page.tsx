@@ -1,9 +1,9 @@
 // app/(auth)/register/page.tsx
 import Link from 'next/link';
 import { Metadata } from 'next';
-import { Container } from '@/components/ui/container';
-import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
+import { Container } from '@/components/ui/Container';
+import { Button } from '@/components/ui/Button';
+import { Heading } from '@/components/ui/Heading';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {

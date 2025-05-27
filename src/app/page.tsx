@@ -134,9 +134,9 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Container } from '@/components/ui/container';
-import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
+import { Container } from '@/components/ui/Container';
+import { Button } from '@/components/ui/Button';
+import { Heading } from '@/components/ui/Heading';
 import { HeroSection } from '@/components/sections/hero-section';
 import { AboutSection } from '@/components/sections/about-section';
 import { getFeaturedProjects } from '@/lib/data/projects';

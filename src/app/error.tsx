@@ -2,9 +2,9 @@
 'use client';
 import { useEffect } from 'react';
 import Link from 'next/link';
-import { Container } from '@/components/ui/container';
-import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
+import { Container } from '@/components/ui/Container';
+import { Heading } from '@/components/ui/Heading';
+import { Button } from '@/components/ui/Button';
 
 export default function Error({
   error,

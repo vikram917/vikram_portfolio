@@ -1,8 +1,8 @@
 // app/about/page.tsx
 import Image from "next/image";
 import { Metadata } from "next";
-import { Container } from "@/components/ui/container";
-import { Heading } from "@/components/ui/heading";
+import { Container } from "@/components/ui/Container";
+import { Heading } from "@/components/ui/Heading";
 import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {

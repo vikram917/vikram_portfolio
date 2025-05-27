@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import { Container } from '@/components/ui/container';
-import { Heading } from '@/components/ui/heading';
-import { Button } from '@/components/ui/button';
+import { Container } from '@/components/ui/Container';
+import { Heading } from '@/components/ui/Heading';
+import { Button } from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 

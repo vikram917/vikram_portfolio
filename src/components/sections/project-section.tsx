@@ -1,10 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Container } from '@/components/ui/container';
-import { Button } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
-import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { Container } from '@/components/ui/Container';
+import { Button } from '@/components/ui/Button';
+import { Heading } from '@/components/ui/Heading';
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/Card';
 import { cn } from '@/lib/utils';
 import { ArrowRight, ExternalLink, Github } from 'lucide-react';
 import { projects } from '@/lib/data/projects';

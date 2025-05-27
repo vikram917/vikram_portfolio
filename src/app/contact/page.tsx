@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
-import { Container } from '@/components/ui/container'
-import { Heading } from '@/components/ui/heading'
-import { Card } from '@/components/ui/card'
+import { Container } from '@/components/ui/Container'
+import { Heading } from '@/components/ui/Heading'
+import { Card } from '@/components/ui/Card'
 import { ContactForm } from '@/components/forms/contact-form'
 
 export const metadata: Metadata = {

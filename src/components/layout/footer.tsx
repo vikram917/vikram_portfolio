@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Container } from '@/components/ui/container';
+import { Container } from '@/components/ui/Container';
 import { cn } from '@/lib/utils';
 import { siteConfig } from '@/config/site';
 import  ThemeSwitcher  from '@/components/theme/theme-switcher';
